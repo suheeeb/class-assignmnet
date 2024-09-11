@@ -1,36 +1,9 @@
-public class Suhayb {
+public class employee
 
-   
-    int instanceVariable;
 
-  
-    static int staticVariable;
+int DepartmentID
+String ="IT support";
 
-    public void demonstrateVariables() {
+public void (){
+    System.out.println(
         
-        int localVariable = 10;
-
-     
-        instanceVariable = localVariable * 2;
-        System.out.println("Instance Variable: " + instanceVariable);
-
-       
-        staticVariable = localVariable * 3;
-        System.out.println("Static Variable: " + staticVariable);
-
-        System.out.println("Local Variable: " + localVariable);
-    }
-
-    public static void main(String[] args) {
-      
-        VariableExample example1 = new VariableExample();
-        example1.demonstrateVariables();
-
-       
-        VariableExample example2 = new VariableExample();
-        example2.demonstrateVariables();
-
-       
-        System.out.println("Static Variable accessed from class: " + VariableExample.staticVariable);
-    }
-}
